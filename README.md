@@ -40,7 +40,7 @@
 ## 🧠 Code Practice & Competitive Programming
 
 🏆 **Code360 Profile:**  
-> 🔗 [Visit My Profile]([https://www.codingninjas.com/studio/profile/krishnamewara841](https://www.naukri.com/code360/profile/DeathGun))
+> 🔗 [Visit My Profile](https://www.naukri.com/code360/profile/DeathGun)
 
 - ✅ Practicing DSA in Java
 - ✅ Top Performer in contests & daily challenges
