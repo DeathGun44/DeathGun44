@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Krishna Mewara
 
 🎓 B.Tech Student at NIT Silchar | 💻 Full-Stack & Mobile App Developer  
-🌐 Passionate about crafting scalable, secure, and user-centric solutions
+🌐 Passionate about building scalable, secure, and user-centric solutions
 
 ---
 
@@ -37,21 +37,23 @@
 
 ---
 
-## 📈 GitHub Stats
+## 🧠 Code Practice & Competitive Programming
 
-![Krishna's GitHub Stats](https://github-readme-stats.vercel.app/api?username=DeathGun44&show_icons=true&theme=radical)
+🏆 **Code360 Profile:**  
+> 🔗 [Visit My Profile](https://www.codingninjas.com/studio/profile/krishnamewara841)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DeathGun44&layout=compact&theme=radical)
+- ✅ Practicing DSA in Java
+- ✅ Top Performer in contests & daily challenges
+- ✅ Consistently sharpening problem-solving skills
 
 ---
 
 ## 📫 Let’s Connect!
 
-- ✉️ Email: [krishnamewara841@gmail.com](mailto:krishnamewara841@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/krishna-mewara-127699280](https://linkedin.com/in/krishna-mewara-127699280)
+- ✉️ Email: [krishnamewara841@gmail.com](mailto:krishnamewara841@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/krishna-mewara-127699280](https://linkedin.com/in/krishna-mewara-127699280)  
 - 🧑‍💻 GitHub: [github.com/DeathGun44](https://github.com/DeathGun44)
 
 ---
 
 ⭐ _“Obsessed with writing clean, impactful code and solving real-world problems through tech.”_
-
