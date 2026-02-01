@@ -58,14 +58,14 @@ Active contributor to **Apache Fineract** (Fintech Core Banking), focusing on Se
 ### 🧠 [DevOps Intelligence Agent](https://github.com/DeathGun44/devops-agent)
 *Serverless AI agent for autonomous workflow orchestration.*
 * **Impact:** Reduces incident response time by 90% using reasoning engines.
-* **Tech:** Python, AWS Bedrock, Lambda, DynamoDB, LangChain.
+* **Tech:** Python, AWS Bedrock, Lambda, DynamoDB, S3.
 
 <br />
 
 ## 🏆 Achievements
 * **Global Rank 947** - [Meta Hacker Cup 2025 Certificate](https://www.facebook.com/codingcompetitions/hacker-cup/2025/certificate/1471432427467454) (Top 1%).
 * **National Semi-Finalist** - Tata Imagination Challenge 2025 (Top 1.6%).
-* **Master Badges** - [Code360 Profile](https://www.naukri.com/code360/profile/3b05669a-3097-4581-a02f-fc26f7354a6e) (Advanced Java DSA).
+* **Master Badges** - [Code360 Profile](https://www.naukri.com/code360/profile/3b05669a-3097-4581-a02f-fc26f7354a6e) (Java DSA).
 
 <br />
 
