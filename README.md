@@ -1,89 +1,75 @@
-# 👋 Hi, I'm Krishna Mewara
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=BD93F9&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Krishna;I+Engineer+Scalable+Cloud+Systems;I+Contribute+to+Open+Source;DevOps+%7C+Go+%7C+AWS+%7C+Java" alt="Typing SVG" />
+</div>
 
-🎓 B.Tech Student at NIT Silchar (ECE) | 💻 Full-Stack & Mobile App Developer  
-🌐 Building secure, scalable apps across mobile and web platforms
+<div align="center">
+  <h3>Full Stack Engineer & Open Source Contributor</h3>
+  <p>
+    Building scalable, cloud-native systems using Go, Python, and TypeScript.<br>
+    B.Tech in Electronics & Communication Engineering at NIT Silchar.
+  </p>
 
----
+  <a href="https://www.linkedin.com/in/krishna-mewara-127699280/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:krishnamewara418@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.naukri.com/code360/profile/3b05669a-3097-4581-a02f-fc26f7354a6e">
+    <img src="https://img.shields.io/badge/Code360-FFA500?style=for-the-badge&logo=codingninjas&logoColor=white" />
+  </a>
+</div>
 
-## 🚀 Tech Stack
+<br />
 
-**Languages**  
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)  
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)  
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+## 🚀 Open Source Contributions
+Active contributor to **Apache Fineract** (Fintech Core Banking), focusing on Security, DevOps, and Stability.
 
-**Frameworks & Tools**  
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)  
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)  
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)  
-![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)  
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)  
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)  
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+| Area | Impact & PR | Tech Stack |
+| :--- | :--- | :--- |
+| 🛡️ **Security** | **[Architected Force Password Reset Workflow](https://github.com/apache/fineract/pull/5387)**<br>Prevented default credential exploitation via `PlatformUserDetailsChecker`. | Java, Spring Security |
+| 🐳 **DevOps** | **[Revitalized Docker Monitoring](https://github.com/apache/fineract/pull/5354)**<br>Fixed inter-container DNS/TLS issues to restore Prometheus scraping. | Docker, Prometheus |
+| ⚡ **Stability** | **[Optimized CI Stability](https://github.com/apache/fineract/pull/5384)**<br>Refactored global config to map-based lookups, eliminating CI crashes. | Java, GitHub Actions |
+| 🤖 **CI/CD** | **[Automated Compliance Checks](https://github.com/apache/fineract/pull/5361)**<br>Streamlined community contributions with automated workflows. | GitHub Actions |
 
-**DevOps & Tools**  
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)  
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)  
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)  
-![Fly.io](https://img.shields.io/badge/Fly.io-003366?style=flat-square&logo=flydotio&logoColor=white)  
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+<br />
 
----
+## 🛠️ Technical Arsenal
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,go,python,ts,cpp&theme=dark" />
+    <br />
+    <img src="https://skillicons.dev/icons?i=aws,docker,terraform,linux,postgres,redis,spring,react,nextjs&theme=dark" />
+  </a>
+</div>
 
-## 📱 Featured Projects
+<br />
 
-🧭 **Planit – Travel Booking App**  
-_Flutter, MongoDB, Node.js, Express, TripAdvisor API_  
-> Hotel search, trip planner, SOS alert system, secure JWT auth, deployed with Docker on Fly.io  
-> 🔗 [GitHub Repo](https://github.com/Ecell23/Travel-App-Frontend)
+## 🔭 Featured Projects
 
-🧠 **AI Resume Screener**  
-_React, Node.js, Flask, MongoDB, SBERT, Groq API_  
-> ATS-style JD-matching tool with semantic ranking, keyword extraction, and resume feedback  
-> 🔗 [GitHub Repo](https://github.com/DeathGun44/Resume-Screener)
+### ⚡ [CodePair](https://github.com/DeathGun44/CodePair)
+*High-concurrency real-time collaboration platform.*
+> **[🔴 View Live Demo](https://d1sbwboam7ndtu.cloudfront.net)**
 
-📣 **E-Cell Internal Community App**  
-_Flutter, Firebase, Provider_  
-> Used by 50+ E-Cell members for event coordination, updates, and shared resources  
-> 🔗 [GitHub Repo](https://github.com/Ecell-NITS/E-cell-app)
+* **Scale:** Supports 10k+ connections with <50ms latency using Go routines.
+* **Infrastructure:** Immutable AWS ECS infrastructure via Terraform.
+* **Tech:** Go, React, TypeScript, AWS, Redis, Docker.
 
----
+### 🧠 [DevOps Intelligence Agent](https://github.com/DeathGun44/devops-agent)
+*Serverless AI agent for autonomous workflow orchestration.*
+* **Impact:** Reduces incident response time by 90% using reasoning engines.
+* **Tech:** Python, AWS Bedrock, Lambda, DynamoDB, LangChain.
 
-## 🧠 Code Practice & Achievements
+<br />
 
-🏆 **Code360 Profile:**  
-> 🔗 [Visit My Profile](https://www.naukri.com/code360/profile/3b05669a-3097-4581-a02f-fc26f7354a6e)
+## 🏆 Achievements
+* **Global Rank 947** - [Meta Hacker Cup 2025 Certificate](https://www.facebook.com/codingcompetitions/hacker-cup/2025/certificate/1471432427467454) (Top 1%).
+* **National Semi-Finalist** - Tata Imagination Challenge 2025 (Top 1.6%).
+* **Master Badges** - [Code360 Profile](https://www.naukri.com/code360/profile/3b05669a-3097-4581-a02f-fc26f7354a6e) (Advanced Java DSA).
 
-- 🥇 1x Master Badge, 6x Specialist Badges in Java DSA  
-- 🧩 Daily DSA problem-solving in Java  
-- 🧠 Consistent top performer in contests  
+<br />
 
-🚀 **Leadership & Awards**
-- 👨‍💻 **Technical Head, E-Cell NIT Silchar (2025)** – leading a dev team of 4  
-- 🏅 **Mock Shark Tank Winner (2023)** – top pitch for innovative tech startup idea  
-
----
-
-## 📚 Education & Training
-
-🎓 **B.Tech, Electronics & Communication**  
-_NIT Silchar (2023–Present) | CGPA: 7.1_
-
-🎓 **TechVarsity Web Development Training – Coding Ninjas**  
-> HTML, CSS, Java, Frontend, DSA, Generative AI (Jul 2024 – Apr 2025)
-
----
-
-## 📫 Let’s Connect!
-
-- ✉️ Email: [krishnamewara314@gmail.com](mailto:krishnamewara314@gmail.com)  
-- 💼 LinkedIn: [Krishna Mewara](https://linkedin.com/in/krishna-mewara-127699280)  
-- 🧑‍💻 GitHub: [DeathGun44](https://github.com/DeathGun44)
-
----
-
-⭐ _“Obsessed with clean code, AI integration, and solving real-world problems through technology.”_
+## 📊 GitHub Analytics
+<div align="center">
+  <img src="./github-metrics.svg" alt="Metrics" width="100%">
+</div>
