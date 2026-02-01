@@ -13,7 +13,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # 1. Base Configuration (Wide layout)
+          # 1. Base Configuration
           user: DeathGun44
           template: classic
           base: header, activity, community, repositories
@@ -21,24 +21,19 @@ jobs:
           theme: dracula
           config_display: large
           
-          # 2. "Notable" 
+          # 2. Notable Contributions (Keeps the Apache Logo)
           plugin_notable: yes
           plugin_notable_from: all
           plugin_notable_types: commit
           
-          # 3. Achievements - Adds colorful "Trophies"
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
-          
-          # 4. Languages - The colored bar graph you liked
+          # 3. Languages (Colored bars)
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_limit: 8
           
-          # 5. Lines of Code 
+          # 4. Lines of Code (Shows activity volume)
           plugin_lines: yes
           
-          # 6. Calendar 
+          # 5. Calendar (Full year history)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
