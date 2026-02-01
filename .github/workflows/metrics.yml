@@ -13,18 +13,19 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Options for a smaller, cleaner card
+          # Core Options
           user: DeathGun44
           template: classic
-          base: header, activity, community # Removed 'repositories' and 'metadata' to save space
+          base: header, activity, community
           config_timezone: Asia/Kolkata
           theme: dracula
+          config_display: large
           
-          # Fix "Too Big" issues
-          config_display: large # Uses a 2-column layout which is wider but shorter (looks better)
-          
-          # Languages Plugin (Keep this, it's cool)
+          # 1. Languages (The colored bars)
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_limit: 8
-          plugin_lines: yes
+          
+          # 2. The Replacement for Streak Stats (IsoCalendar)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
