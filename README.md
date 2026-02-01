@@ -5,7 +5,7 @@
 <div align="center">
   <h3>Full Stack Engineer & Open Source Contributor</h3>
   <p>
-    Building scalable, cloud-native systems using Go, Python, and TypeScript.<br>
+    Building scalable, cloud-native systems using Java, Go, Python, and TypeScript.<br>
     B.Tech in Electronics & Communication Engineering at NIT Silchar.
   </p>
 
