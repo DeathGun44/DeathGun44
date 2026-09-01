@@ -1,75 +1,92 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=BD93F9&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Krishna;I+Engineer+Scalable+Cloud+Systems;I+Contribute+to+Open+Source;DevOps+%7C+Go+%7C+AWS+%7C+Java" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3200&pause=1000&color=BD93F9&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Krishna;GSoC+2026+%40+Apache+Software+Foundation;I+work+on+core+banking+infrastructure;Java+%7C+Spring+%7C+Go+%7C+CI%2FCD" alt="Krishna Mewara" />
 </div>
 
 <div align="center">
-  <h3>Full Stack Engineer & Open Source Contributor</h3>
-  <p>
-    Building scalable, cloud-native systems using Java, Go, Python, and TypeScript.<br>
-    B.Tech in Electronics & Communication Engineering at NIT Silchar.
-  </p>
-
   <a href="https://www.linkedin.com/in/krishna-mewara-127699280/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:krishnamewara418@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://www.naukri.com/code360/profile/3b05669a-3097-4581-a02f-fc26f7354a6e">
-    <img src="https://img.shields.io/badge/Code360-FFA500?style=for-the-badge&logo=codingninjas&logoColor=white" />
+    <img src="https://img.shields.io/badge/Code360-FFA500?style=for-the-badge&logo=codingninjas&logoColor=white" alt="Code360" />
   </a>
 </div>
 
 <br />
 
-## 🚀 Open Source Contributions
-Active contributor to **Apache Fineract** (Fintech Core Banking), focusing on Security, DevOps, and Stability.
+Final-year ECE student at NIT Silchar. I mostly write Java.
 
-| Area | Impact & PR | Tech Stack |
+Right now I'm a **Google Summer of Code 2026 contributor at the Apache Software Foundation**, rebuilding [Apache Fineract](https://github.com/apache/fineract)'s integration test suite. Fineract is the core-banking engine behind Mifos X — the software a lot of microfinance institutions run on. The work is unglamorous and I like it: ~380 files moved off REST-assured onto a generated type-safe client, and the suite came out about 1,100 lines *smaller* than it went in.
+
+I also contribute to Hyperledger Besu and Hiero under LF Decentralized Trust, and I was [Mifos Star Contributor for May 2026](https://mifos.org/blog/star-contributor-krishna-mewara-2/).
+
+<br />
+
+## Open source
+
+| Project | What I did | |
 | :--- | :--- | :--- |
-| 🛡️ **Security** | **[Architected Force Password Reset Workflow](https://github.com/apache/fineract/pull/5387)**<br>Prevented default credential exploitation via `PlatformUserDetailsChecker`. | Java, Spring Security |
-| 🐳 **DevOps** | **[Revitalized Docker Monitoring](https://github.com/apache/fineract/pull/5354)**<br>Fixed inter-container DNS/TLS issues to restore Prometheus scraping. | Docker, Prometheus |
-| ⚡ **Stability** | **[Optimized CI Stability](https://github.com/apache/fineract/pull/5384)**<br>Refactored global config to map-based lookups, eliminating CI crashes. | Java, GitHub Actions |
-| 🤖 **CI/CD** | **[Automated Compliance Checks](https://github.com/apache/fineract/pull/5361)**<br>Streamlined community contributions with automated workflows. | GitHub Actions |
+| **Apache Fineract** · GSoC '26 | Migrating the integration suite to a type-safe Feign client — 15 PRs, ~380 files, net −1.1k lines | [#6158](https://github.com/apache/fineract/pull/6158) |
+| **Mifos Self-Service Plugin** | Primary developer — 2FA token flows, atomic self-enrollment, async notifications, E2E suite | [33 PRs](https://github.com/openMF/selfservice-plugin/pulls?q=is%3Apr+author%3ADeathGun44+is%3Amerged) |
+| **Hyperledger Besu** | Moved multi-arch Docker publishing off Gradle into a reusable GitHub Actions workflow | [#10366](https://github.com/besu-eth/besu/pull/10366) |
+| **Hiero** · LF Decentralized Trust | Reorganised the Python SDK docs and rebuilt the contributor label taxonomy | [#2106](https://github.com/hiero-ledger/hiero-sdk-python/pull/2106) |
+
+<!-- OSS:START -->
+**95** pull requests merged into repos I don't own · **15** of other people's PRs reviewed ·
+[full list](https://github.com/search?q=is%3Apr+author%3ADeathGun44+is%3Amerged+-user%3ADeathGun44&type=pullrequests&s=created&o=desc)
+
+Latest: [apache/fineract#6324](https://github.com/apache/fineract/pull/6324) · [apache/fineract#6321](https://github.com/apache/fineract/pull/6321) · [apache/fineract#6241](https://github.com/apache/fineract/pull/6241)
+<!-- OSS:END -->
 
 <br />
 
-## 🛠️ Technical Arsenal
+## Things I've built
+
+**[CodePair](https://github.com/DeathGun44/codepair)** — real-time collaborative interview practice. Go + Fiber backend, WebSocket sync over Redis pub/sub, Postgres-backed matchmaking worker, Monaco editor, ECS Fargate via Terraform.
+`Go` `React` `TypeScript` `PostgreSQL` `Redis` `AWS` `Terraform`
+
+**[AgentGuard](https://huggingface.co/spaces/DeathGun44/agent-guard)** — an RL environment where the agent plays security reviewer, deciding whether to approve permission requests from other agents that may be honest, deceptive, or compromised. Four-dimension reward that scores *how* it investigated, not just what it decided. Built for the Meta × PyTorch OpenEnv Hackathon, alongside [theWorld](https://huggingface.co/spaces/DeathGun44/theWorld).
+`Python` `FastAPI` `OpenEnv` `Docker`
+
+<br />
+
+## Stack
+
 <div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,go,python,ts,cpp&theme=dark" />
-    <br />
-    <img src="https://skillicons.dev/icons?i=aws,docker,terraform,linux,postgres,redis,spring,react,nextjs&theme=dark" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=java,spring,go,python,ts,cpp&theme=dark" alt="Languages" /><br />
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,gcp,githubactions,linux&theme=dark" alt="Infrastructure" /><br />
+  <img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,angular,react,nodejs&theme=dark" alt="Data and frontend" />
 </div>
 
 <br />
 
-## 🔭 Featured Projects
+## Elsewhere
 
-### ⚡ [CodePair](https://github.com/DeathGun44/CodePair)
-*High-concurrency real-time collaboration platform.*
-> **[🔴 View Live Demo](https://d1sbwboam7ndtu.cloudfront.net)**
+- Global rank **947** at [Meta Hacker Cup 2025](https://www.facebook.com/codingcompetitions/hacker-cup/2025/certificate/1471432427467454) — top 1%
+- Top 1,500 nationally in Google The Big Code 2026
+- Technical Head, E-Cell NIT Silchar
 
-* **Scale:** Supports 10k+ connections with <50ms latency using Go routines.
-* **Infrastructure:** Immutable AWS ECS infrastructure via Terraform.
-* **Tech:** Go, React, TypeScript, AWS, Redis, Docker.
-
-### 🧠 [DevOps Intelligence Agent](https://github.com/DeathGun44/devops-agent)
-*Serverless AI agent for autonomous workflow orchestration.*
-* **Impact:** Reduces incident response time by 90% using reasoning engines.
-* **Tech:** Python, AWS Bedrock, Lambda, DynamoDB, S3.
-
+<details>
+<summary><b>The numbers, if you want them</b></summary>
 <br />
-
-## 🏆 Achievements
-* **Global Rank 947** - [Meta Hacker Cup 2025 Certificate](https://www.facebook.com/codingcompetitions/hacker-cup/2025/certificate/1471432427467454) (Top 1%).
-* **National Semi-Finalist** - Tata Imagination Challenge 2025 (Top 1.6%).
-* **Master Badges** - [Code360 Profile](https://www.naukri.com/code360/profile/3b05669a-3097-4581-a02f-fc26f7354a6e) (Java DSA).
-
-<br />
-
-## 📊 GitHub Analytics
 <div align="center">
-  <img src="./github-metrics.svg" alt="Metrics" width="100%">
+  <img src="./github-metrics.svg" alt="GitHub metrics" width="100%">
 </div>
+</details>
+
+<!--
+  SNAKE FOOTER — leave this commented until the workflow has run once.
+  Actions tab -> "Snake" -> Run workflow. That creates the `output` branch.
+  Then delete the two comment lines around the block below.
+-->
+<!--
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DeathGun44/DeathGun44/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DeathGun44/DeathGun44/output/github-snake.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/DeathGun44/DeathGun44/output/github-snake.svg" />
+  </picture>
+</div>
+-->
