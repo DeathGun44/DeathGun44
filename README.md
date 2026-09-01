@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3200&pause=1000&color=BD93F9&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Krishna;GSoC+2026+%40+Apache+Software+Foundation;I+work+on+core+banking+infrastructure;Java+%7C+Spring+%7C+Go+%7C+CI%2FCD" alt="Krishna Mewara" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3200&pause=1000&color=BD93F9&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Krishna;GSoC+'26+%40+Apache+Software+Foundation;I+build+things+that+don't+fall+over;Java+%7C+Spring+%7C+Go+%7C+CI%2FCD" alt="Krishna Mewara" />
 </div>
 
 <div align="center">
@@ -16,11 +16,11 @@
 
 <br />
 
-Final-year ECE student at NIT Silchar. I mostly write Java.
+Final-year ECE student at NIT Silchar. I like building things, and I like them not falling over.
 
-Right now I'm a **Google Summer of Code 2026 contributor at the Apache Software Foundation**, rebuilding [Apache Fineract](https://github.com/apache/fineract)'s integration test suite. Fineract is the core-banking engine behind Mifos X — the software a lot of microfinance institutions run on. The work is unglamorous and I like it: ~380 files moved off REST-assured onto a generated type-safe client, and the suite came out about 1,100 lines *smaller* than it went in.
+Most of what I shipped this year went into other people's production codebases. What I keep gravitating towards there is the unglamorous half - the test suite nobody wants to migrate, the CI job that takes seven minutes too long, the thread pool that quietly exhausts itself under load. That's the work that decides whether software still behaves once a lot of people depend on it, and it turns out I enjoy it.
 
-I also contribute to Hyperledger Besu and Hiero under LF Decentralized Trust, and I was [Mifos Star Contributor for May 2026](https://mifos.org/blog/star-contributor-krishna-mewara-2/).
+I completed **Google Summer of Code 2026** with the Apache Software Foundation, and was [Mifos Star Contributor for May 2026](https://mifos.org/blog/star-contributor-krishna-mewara-2/). The rest of the time I follow whatever I'm curious about - RL environments, Go services, whichever agent stack I haven't taken apart yet.
 
 <br />
 
@@ -28,8 +28,8 @@ I also contribute to Hyperledger Besu and Hiero under LF Decentralized Trust, an
 
 | Project | What I did | |
 | :--- | :--- | :--- |
-| **Apache Fineract** · GSoC '26 | Migrating the integration suite to a type-safe Feign client — 15 PRs, ~380 files, net −1.1k lines | [#6158](https://github.com/apache/fineract/pull/6158) |
-| **Mifos Self-Service Plugin** | Primary developer — 2FA token flows, atomic self-enrollment, async notifications, E2E suite | [33 PRs](https://github.com/openMF/selfservice-plugin/pulls?q=is%3Apr+author%3ADeathGun44+is%3Amerged) |
+| **Apache Fineract** | Rebuilt the integration test suite on a type-safe Feign client for GSoC '26, plus security, concurrency and CI work outside it - 28 PRs, 115 commits, 19th of 317 all-time contributors | [#6158](https://github.com/apache/fineract/pull/6158) |
+| **Mifos Self-Service Plugin** | Primary developer - 2FA token flows, atomic self-enrollment, async notifications, E2E suite | [33 PRs](https://github.com/openMF/selfservice-plugin/pulls?q=is%3Apr+author%3ADeathGun44+is%3Amerged) |
 | **Hyperledger Besu** | Moved multi-arch Docker publishing off Gradle into a reusable GitHub Actions workflow | [#10366](https://github.com/besu-eth/besu/pull/10366) |
 | **Hiero** · LF Decentralized Trust | Reorganised the Python SDK docs and rebuilt the contributor label taxonomy | [#2106](https://github.com/hiero-ledger/hiero-sdk-python/pull/2106) |
 
@@ -44,11 +44,13 @@ Latest: [apache/fineract#6324](https://github.com/apache/fineract/pull/6324) · 
 
 ## Things I've built
 
-**[CodePair](https://github.com/DeathGun44/codepair)** — real-time collaborative interview practice. Go + Fiber backend, WebSocket sync over Redis pub/sub, Postgres-backed matchmaking worker, Monaco editor, ECS Fargate via Terraform.
+**[CodePair](https://github.com/DeathGun44/codepair)** - real-time collaborative interview practice. Go + Fiber backend, WebSocket sync over Redis pub/sub, Postgres-backed matchmaking worker, Monaco editor, ECS Fargate via Terraform.
 `Go` `React` `TypeScript` `PostgreSQL` `Redis` `AWS` `Terraform`
 
-**[AgentGuard](https://huggingface.co/spaces/DeathGun44/agent-guard)** — an RL environment where the agent plays security reviewer, deciding whether to approve permission requests from other agents that may be honest, deceptive, or compromised. Four-dimension reward that scores *how* it investigated, not just what it decided. Built for the Meta × PyTorch OpenEnv Hackathon, alongside [theWorld](https://huggingface.co/spaces/DeathGun44/theWorld).
+**[AgentGuard](https://huggingface.co/spaces/DeathGun44/agent-guard)** - an RL environment where the agent plays security reviewer, deciding whether to approve permission requests from other agents that may be honest, deceptive, or compromised. Four-dimension reward that scores *how* it investigated, not just what it decided. Built for the Meta × PyTorch OpenEnv Hackathon, alongside [theWorld](https://huggingface.co/spaces/DeathGun44/theWorld).
 `Python` `FastAPI` `OpenEnv` `Docker`
+
+**Also** - [AuditAI](https://github.com/DeathGun44/cloud-run-AuditAi) (five-agent expense audit on Cloud Run, Google ADK), [cf_ai_task_manager](https://github.com/DeathGun44/cf_ai_task_manager) (Cloudflare Workers AI + Durable Objects, live), [DevOps Intelligence Agent](https://github.com/DeathGun44/devops-intelligence-agent) (AWS Bedrock). Three different agent stacks in six months, mostly because I wanted to know how each one felt to build on.
 
 <br />
 
@@ -66,7 +68,6 @@ Latest: [apache/fineract#6324](https://github.com/apache/fineract/pull/6324) · 
 
 - Global rank **947** at [Meta Hacker Cup 2025](https://www.facebook.com/codingcompetitions/hacker-cup/2025/certificate/1471432427467454) — top 1%
 - Top 1,500 nationally in Google The Big Code 2026
-- Technical Head, E-Cell NIT Silchar
 
 <details>
 <summary><b>The numbers, if you want them</b></summary>
@@ -77,7 +78,7 @@ Latest: [apache/fineract#6324](https://github.com/apache/fineract/pull/6324) · 
 </details>
 
 <!--
-  SNAKE FOOTER — leave this commented until the workflow has run once.
+  SNAKE FOOTER — leave this commented until the Snake workflow has run once.
   Actions tab -> "Snake" -> Run workflow. That creates the `output` branch.
   Then delete the two comment lines around the block below.
 -->
