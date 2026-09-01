@@ -1,0 +1,72 @@
+name: Refresh open-source stats
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Query GitHub
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USER: DeathGun44
+        run: |
+          set -euo pipefail
+
+          MERGED=$(gh api -X GET search/issues \
+            -f q="author:$USER is:pr is:merged -user:$USER" --jq '.total_count')
+
+          REVIEWED=$(gh api -X GET search/issues \
+            -f q="reviewed-by:$USER is:pr -author:$USER" --jq '.total_count')
+
+          RECENT=$(gh api -X GET search/issues \
+            -f q="author:$USER is:pr is:merged -user:$USER" \
+            -f sort=created -f order=desc -f per_page=3 \
+            --jq '[.items[] | "[\(.repository_url | sub("https://api.github.com/repos/"; ""))#\(.number)](\(.html_url))"] | join(" · ")')
+
+          SEARCH="https://github.com/search?q=is%3Apr+author%3A$USER+is%3Amerged+-user%3A$USER&type=pullrequests&s=created&o=desc"
+
+          {
+            echo "**$MERGED** pull requests merged into repos I don't own · **$REVIEWED** of other people's PRs reviewed ·"
+            echo "[full list]($SEARCH)"
+            echo
+            echo "Latest: $RECENT"
+          } > .oss-block.md
+
+          cat .oss-block.md
+
+      - name: Splice into README
+        run: |
+          python3 - <<'PY'
+          import pathlib, re
+          block = pathlib.Path('.oss-block.md').read_text().strip()
+          readme = pathlib.Path('README.md')
+          src = readme.read_text()
+          out = re.sub(
+              r'(?s)(<!-- OSS:START -->).*?(<!-- OSS:END -->)',
+              lambda m: f"{m.group(1)}\n{block}\n{m.group(2)}",
+              src,
+          )
+          if out != src:
+              readme.write_text(out)
+              print("README updated")
+          else:
+              print("no change")
+          PY
+          rm -f .oss-block.md
+
+      - name: Commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: refresh open-source stats [skip ci]"
+          git push
