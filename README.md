@@ -77,12 +77,6 @@ Latest: [apache/fineract#6324](https://github.com/apache/fineract/pull/6324) · 
 </div>
 </details>
 
-<!--
-  SNAKE FOOTER — leave this commented until the Snake workflow has run once.
-  Actions tab -> "Snake" -> Run workflow. That creates the `output` branch.
-  Then delete the two comment lines around the block below.
--->
-<!--
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DeathGun44/DeathGun44/output/github-snake-dark.svg" />
@@ -90,4 +84,4 @@ Latest: [apache/fineract#6324](https://github.com/apache/fineract/pull/6324) · 
     <img alt="Contribution snake" src="https://raw.githubusercontent.com/DeathGun44/DeathGun44/output/github-snake.svg" />
   </picture>
 </div>
--->
+
