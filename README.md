@@ -68,6 +68,8 @@ Latest: [apache/fineract#6433](https://github.com/apache/fineract/pull/6433) · 
 
 - Global rank **947** at [Meta Hacker Cup 2025](https://www.facebook.com/codingcompetitions/hacker-cup/2025/certificate/1471432427467454) - top 1%
 - Top 1,500 nationally in Google The Big Code 2026
+- Adobe Student Insider, India 2026-27 - one of 100 picked from ~19,000 applicants
+- AWS Student Builder Campus Leader for NIT Silchar
 
 <details>
 <summary><b>The numbers, if you want them</b></summary>
