@@ -34,10 +34,10 @@ The GSoC project was a large one - 350 hours, rebuilding Fineract's integration 
 | **Hiero** · LF Decentralized Trust | Reorganised the Python SDK docs and rebuilt the contributor label taxonomy | [#2106](https://github.com/hiero-ledger/hiero-sdk-python/pull/2106) |
 
 <!-- OSS:START -->
-**98** pull requests merged into repos I don't own · **15** of other people's PRs reviewed ·
+**100** pull requests merged into repos I don't own · **15** of other people's PRs reviewed ·
 [full list](https://github.com/search?q=is%3Apr+author%3ADeathGun44+is%3Amerged+-user%3ADeathGun44&type=pullrequests&s=created&o=desc)
 
-Latest: [apache/fineract#6433](https://github.com/apache/fineract/pull/6433) · [apache/fineract#6419](https://github.com/apache/fineract/pull/6419) · [apache/fineract#6355](https://github.com/apache/fineract/pull/6355)
+Latest: [apache/fineract#6516](https://github.com/apache/fineract/pull/6516) · [apache/fineract#6513](https://github.com/apache/fineract/pull/6513) · [apache/fineract#6433](https://github.com/apache/fineract/pull/6433)
 <!-- OSS:END -->
 
 <br />
